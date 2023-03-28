@@ -1,0 +1,131 @@
+body{
+    padding: 0;
+    margin: 0;    
+    width:100vw;
+    height: 100vh;    
+    background-image: url(https://wallpapercave.com/wp/wp3913041.jpg);
+}
+.time{
+    float: right;
+    margin-top: -20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    text-align: center;
+    background: black;
+    color: white;
+}
+.result{
+    top: 0;
+}
+
+.question-number{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    width: 4%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-image: linear-gradient(white,black);
+    margin-top: 20%;
+}
+.panel{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.question-container{
+    margin: 10px;
+    padding: 5px;
+    width: 60vw;
+    height: 20vh;
+    font-size: x-large;
+    text-align: center;
+    border: 2px solid black;
+      
+}
+.result{
+    margin: 10px;
+    padding: 5px;
+    width:70vw;
+    height: 10vh;
+    text-align: start;
+    border: 2px solid black;
+
+      
+}
+.option-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 23px;
+    padding: 6px;
+    width: 50vw;
+    height: 40vh;      
+}
+.option1 , .option2 , .option3, .option4{    
+    padding: 10px;
+    width: 65vw;
+    height: 10vh;
+    font-size: larger;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    margin: 2%;
+
+}
+.qno{
+    background-color: black;
+    color: white;  
+    border-radius: 50%; 
+    margin: 5%; 
+}
+.qno:hover{
+    background-color: rgb(169, 169, 24);
+}
+.option1:hover , .option2:hover , .option3:hover, .option4:hover{
+    background-color: rgb(169, 169, 24);
+}
+
+.navigation{
+    width: 80vw;
+    height: 10vh;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+  
+.back, .next{
+    width:30vw;
+    height: 8vh;
+    padding: 5px;
+    font-size: larger;
+}
+.back{
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
+
+.next{
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+
+}
+.next:hover{
+    background-color: rgb(169, 169, 24);
+}
+.back:hover{
+    background-color: rgb(169, 169, 24);
+}
